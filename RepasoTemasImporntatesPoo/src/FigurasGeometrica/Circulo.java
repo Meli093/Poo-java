@@ -23,4 +23,13 @@ private int radio;
         System.out.println("el area es:");    
     return area();
     
-} }     
+} 
+
+    public int getRadio() {
+        return radio;
+    }
+
+    public void setRadio(int radio) {
+        this.radio = radio;
+    }
+}     

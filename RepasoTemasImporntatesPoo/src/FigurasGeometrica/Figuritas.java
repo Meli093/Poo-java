@@ -7,8 +7,10 @@ package FigurasGeometrica;
 
 /**
  *
- * @author MR
+ * @author T-101
  */
 public interface Figuritas {
-public double CalcularArea();
-}
+  public double CalcularArea();
+  
+}  
+
