@@ -1,16 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package TIPOEXA;
 
-/**
- *
- * @author MR
- */
-public class Cuadrado extends Figura{
-int longitudLado;    
+import FigurasGeometrica.*;
+
+public class Cuadrado implements Figuritas{
+private int longitudLado;    
 
     public Cuadrado() {
     }
@@ -18,16 +11,24 @@ int longitudLado;
     public Cuadrado(int longitudLado) {
         this.longitudLado = longitudLado;
     }
+    public int getLongitudLado() {
+        return longitudLado;
+    }
+
+    public void setLongitudLado(int longitudLado) {
+        this.longitudLado = longitudLado;
+    
+    }
+
     @Override
-	public Double calcularArea() {
-		double area = (double) (longitudLado * longitudLado);
-		System.out.println("El area del cuadrado es :" + area);
-		return area;
-	}
-	
-	@Override
-	public void calcularPerimetro() {
-		int perimetro = 2*longitudLado;
-		System.out.println("El perimetro del cuadrado es :" + perimetro);
-	}
+    public double CalcularArea() {
+longitudLado = (longitudLado* longitudLado);
+        return longitudLado;
+    }
+
 }
+
+   
+    
+    
+
