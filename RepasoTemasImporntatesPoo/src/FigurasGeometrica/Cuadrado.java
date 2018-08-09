@@ -22,7 +22,10 @@ private int longitudLado;
 longitudLado = (longitudLado* longitudLado);
         return longitudLado;
     }
-
+public float getPerimetro(){
+    float perimetro =2*(longitudLado+longitudLado);
+    return perimetro;
+   }
 }
 
    
