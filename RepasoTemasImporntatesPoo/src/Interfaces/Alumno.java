@@ -1,7 +1,7 @@
 /*Abtraccion a traves de interface
  * las interface ayudan a incrementar el nivel de abstraccion tanto como sea necesario
 permita en tener multiples "vistas" de una misma clase.
- * 
+ * http://puntocomnoesunlenguaje.blogspot.com/2014/04/java-excepciones.html
  * 
  */
 package Interfaces;
